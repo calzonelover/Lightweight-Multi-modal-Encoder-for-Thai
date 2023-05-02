@@ -30,6 +30,13 @@ python3 teacher_encode_to_file.py
 bash train_lightweights.bash
 ```
 
+## Dependency
+
+```bash
+pip install -r requirements.txt
+pip install git+https://github.com/openai/CLIP.git
+```
+
 ## References
 [1] C. Polpanumas and W. Phatthiyaphaibun, thai2fit: Thai language Implementation of ULMFit. Zenodo, 2021. doi: 10.5281/zenodo.4429691. 
 
