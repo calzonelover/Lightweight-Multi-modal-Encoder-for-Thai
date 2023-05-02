@@ -1,6 +1,6 @@
 import argparse
 import os
-os.environ["HF_DATASETS_CACHE"] = "/workspace/cache"
+# os.environ["HF_DATASETS_CACHE"] = "/workspace/cache"
 
 from datasets import load_from_disk
 from pythainlp import word_vector, word_tokenize
