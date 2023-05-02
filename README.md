@@ -26,7 +26,8 @@ The evaluation script is located in `notebooks/evaluate.ipynb`
 ## Finetuning scripts
 ```bash
 cd models
-python3 teacher_encode_to_file.py
+python3 teacher_encode_to_file.py --split validation --target_path teacher_encode.val.hf
+python3 teacher_encode_to_file.py --split train --target_path teacher_encode.train.hf
 bash train_lightweights.bash
 ```
 
