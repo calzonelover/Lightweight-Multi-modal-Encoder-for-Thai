@@ -18,7 +18,7 @@ For testing the cross-modal retrieval performance in Thai for both query directi
 | **Thai Encoder (WangchanBERTa-based)**   |  |  |   |  |  |
 | [Thai-Cross-CLIP](https://github.com/vikimark/Thai-Cross-CLIP) | 0.167 | 0.475 | 0.197  | 0.523  | 48 |
 | **Thai Encoder (Thai2Fit-based)**  |  |  |   |  | |
-| [thai-light-multimodal-clip-and-distill](https://huggingface.co/patomp/thai-light-multimodal-clip-and-distill) | 0.082  | **0.328** | 0.118 |**0.401**| 450 |
+| [thai-light-multimodal-clip-and-distill](https://huggingface.co/patomp/thai-light-multimodal-clip-and-distill) | 0.082  | **0.328** | **0.118** |**0.401**| 450 |
 | [thai-light-multimodal-distill](https://huggingface.co/patomp/thai-light-multimodal-distill) | **0.084**  | 0.319 | 0.122 |**0.401**| 450 |
 
 The evaluation script is located in `notebooks/evaluate.ipynb`
