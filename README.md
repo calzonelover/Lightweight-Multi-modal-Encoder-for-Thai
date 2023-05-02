@@ -1,5 +1,5 @@
 # Lightweight Multi-modal Encoder for Thai
-[[model]]() [[dataset]](https://huggingface.co/datasets/patomp/thai-mscoco-2014-captions)
+[[model]](https://huggingface.co/patomp/thai-light-multimodal-clip-and-distill) [[dataset]](https://huggingface.co/datasets/patomp/thai-mscoco-2014-captions)
 
 This repository contains the model scripts of lightweight Thai text encoder using [thai2fit](https://github.com/cstorm125/thai2fit) [1] with the trained projection matrices. In addition, it also contains the processing script that translate image-caption pairs from english to thai.
 
