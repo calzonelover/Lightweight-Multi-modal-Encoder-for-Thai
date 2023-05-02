@@ -7,6 +7,9 @@ This repository contains the model scripts of lightweight Thai text encoder usin
 
 The dataset contructed from translating the captions of [MS COCO 2014 dataset](https://huggingface.co/datasets/HuggingFaceM4/COCO) [2] to Thai by using [NMT](https://airesearch.in.th/releases/machine-translation-models/) provided by VISTEC-depa Thailand Artificial Intelligence Research Institute [3]. The translated of 3 splits (train, validation and test) dataset was published in the [Huggingface](https://huggingface.co/datasets/patomp/thai-mscoco-2014-captions).
 
+## Benchmark
+For testing the cross-modal retrieval performance in Thai for both query directions: text-find-image and image-find-text. The results from  multilingual and dedicated Thai encoder are shown in the following table.
+
 | Model \ Metrics | text-find-image recall@1  | text-find-image recall@10 | image-find-text recall@1  | image-find-text recall@10  |
 | :---  | --- | --- | --- | --- |
 | **Multilingual Encoder** | |   |   |   |
@@ -15,10 +18,6 @@ The dataset contructed from translating the captions of [MS COCO 2014 dataset](h
 | **Thai Encoder**   |  |  |   |  |
 | [Thai-Cross-CLIP](https://github.com/vikimark/Thai-Cross-CLIP) | 0.167 | 0.475 | 0.197  | 0.523  |
 | [Thiswork]() |   |     |   |   |
-
-
-## Benchmark
-For testing the cross-modal retrieval performance in Thai fot both directions: text-find-image and image-find-text. The results from  multilingual and dedicated Thai encoder are shown in the following table.
 
 ## References
 [1] C. Polpanumas and W. Phatthiyaphaibun, thai2fit: Thai language Implementation of ULMFit. Zenodo, 2021. doi: 10.5281/zenodo.4429691. 
