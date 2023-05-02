@@ -10,14 +10,16 @@ The dataset contructed from translating the captions of [MS COCO 2014 dataset](h
 ## Benchmark
 For testing the cross-modal retrieval performance in Thai for both query directions: text-find-image and image-find-text. The results from  multilingual and dedicated Thai encoder are shown in the following table.
 
-| Model \ Metrics | text-find-image recall@1  | text-find-image recall@10 | image-find-text recall@1  | image-find-text recall@10  |
-| :---  | --- | --- | --- | --- |
-| **Multilingual Encoder** | |   |   |   |
-| [clip-ViT-B-32-multilingual-v1](https://huggingface.co/sentence-transformers/clip-ViT-B-32-multilingual-v1) | 0.075 | 0.242 | 0.096 | 0.286 |
-| [XLM-Roberta-Large-Vit-B-32](https://huggingface.co/M-CLIP/XLM-Roberta-Large-Vit-B-32) | **0.226** | **0.565** | **0.265** | **0.596** |
-| **Thai Encoder**   |  |  |   |  |
-| [Thai-Cross-CLIP](https://github.com/vikimark/Thai-Cross-CLIP) | 0.167 | 0.475 | 0.197  | 0.523  |
-| [Thiswork]() |   |     |   |   |
+| Model \ Metrics | text-find-image recall@1  | text-find-image recall@10 | image-find-text recall@1  | image-find-text recall@10  | # text samples per second* |
+| :---  | --- | --- | --- | --- | --- |
+| **Multilingual Encoder** | |   |   |   | |
+| [clip-ViT-B-32-multilingual-v1](https://huggingface.co/sentence-transformers/clip-ViT-B-32-multilingual-v1) | 0.075 | 0.242 | 0.096 | 0.286 | - |
+| [XLM-Roberta-Large-Vit-B-32](https://huggingface.co/M-CLIP/XLM-Roberta-Large-Vit-B-32) | **0.226** | **0.565** | **0.265** | **0.596** | 20 |
+| **Thai Encoder (WangchanBERTa-based)**   |  |  |   |  | 48 |
+| [Thai-Cross-CLIP](https://github.com/vikimark/Thai-Cross-CLIP) | 0.167 | 0.475 | 0.197  | 0.523  | |
+| **Thai Encoder (Thai2Fit-based)**  |  |  |   |  | |
+| [thai-light-multimodal-clip-and-distill](https://huggingface.co/patomp/thai-light-multimodal-clip-and-distill) | 0.082  | **0.328** | 0.118 |**0.401**| 450 |
+| [thai-light-multimodal-distill](https://huggingface.co/patomp/thai-light-multimodal-distill) | **0.084**  | 0.319 | 0.122 |**0.401**| 450 |
 
 ## References
 [1] C. Polpanumas and W. Phatthiyaphaibun, thai2fit: Thai language Implementation of ULMFit. Zenodo, 2021. doi: 10.5281/zenodo.4429691. 
