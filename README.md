@@ -21,6 +21,15 @@ For testing the cross-modal retrieval performance in Thai for both query directi
 | [thai-light-multimodal-clip-and-distill](https://huggingface.co/patomp/thai-light-multimodal-clip-and-distill) | 0.082  | **0.328** | 0.118 |**0.401**| 450 |
 | [thai-light-multimodal-distill](https://huggingface.co/patomp/thai-light-multimodal-distill) | **0.084**  | 0.319 | 0.122 |**0.401**| 450 |
 
+The evaluation script is located in `notebooks/evaluate.ipynb`
+
+## Finetuning scripts
+```bash
+cd models
+python3 teacher_encode_to_file.py
+bash train_lightweights.bash
+```
+
 ## References
 [1] C. Polpanumas and W. Phatthiyaphaibun, thai2fit: Thai language Implementation of ULMFit. Zenodo, 2021. doi: 10.5281/zenodo.4429691. 
 
