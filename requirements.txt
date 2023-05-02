@@ -1,0 +1,8 @@
+pythainlp>=4.0.0
+gensim>=4.3.1
+torch>=1.13.1
+torchvision>=0.14.1
+transformers>=4.28.1
+sentence-transformers>=2.2.2
+datasets>=2.11.0
+multilingual-clip>=1.0.10
