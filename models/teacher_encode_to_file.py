@@ -1,7 +1,7 @@
 import argparse
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-os.environ["HF_DATASETS_CACHE"] = "/workspace/cache"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# os.environ["HF_DATASETS_CACHE"] = "/workspace/cache"
 
 from datasets import load_dataset
 
