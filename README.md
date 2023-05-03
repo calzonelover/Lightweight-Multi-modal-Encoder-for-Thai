@@ -44,3 +44,16 @@ pip install git+https://github.com/openai/CLIP.git
 [2] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. 2014. Microsoft COCO: Common Objects in Context. In Computer Vision – ECCV 2014, Springer International Publishing, Cham, 740–755. 
 
 [3] English-Thai Machine Translation Models. (2020, June 23).  VISTEC-depa Thailand Artificial Intelligence Research Institute. https://airesearch.in.th/releases/machine-translation-models/
+
+## Citation
+
+```
+@software{Lightweight-Multi-modal-Encoder-for-Thai,
+  author = {Patomporn Payoungkhamdee},
+  month = {3},
+  year = {2023},
+  title = {{Lightweight Multi-modal Encoder for Thai}},
+  url = {https://github.com/calzonelover/Lightweight-Multi-modal-Encoder-for-Thai},
+  version = {0.1},
+}
+```
