@@ -13,7 +13,7 @@ For testing the cross-modal retrieval performance in Thai for both query directi
 | Model \ Metrics | text-find-image recall@1  | text-find-image recall@10 | image-find-text recall@1  | image-find-text recall@10  | # text samples per second* |
 | :---  | --- | --- | --- | --- | --- |
 | **Multilingual Encoder** | |   |   |   | |
-| [clip-ViT-B-32-multilingual-v1](https://huggingface.co/sentence-transformers/clip-ViT-B-32-multilingual-v1) | 0.075 | 0.242 | 0.096 | 0.286 | - |
+| [clip-ViT-B-32-multilingual-v1](https://huggingface.co/sentence-transformers/clip-ViT-B-32-multilingual-v1) | 0.075 | 0.242 | 0.096 | 0.286 | 251 |
 | [XLM-Roberta-Large-Vit-B-32](https://huggingface.co/M-CLIP/XLM-Roberta-Large-Vit-B-32) | **0.226** | **0.565** | **0.265** | **0.596** | 20 |
 | **Thai Encoder (WangchanBERTa-based)**   |  |  |   |  |  |
 | [Thai-Cross-CLIP](https://github.com/vikimark/Thai-Cross-CLIP) | 0.167 | 0.475 | 0.197  | 0.523  | 48 |
