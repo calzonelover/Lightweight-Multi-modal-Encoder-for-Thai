@@ -50,7 +50,7 @@ pip install git+https://github.com/openai/CLIP.git
 ```
 @software{Lightweight-Multi-modal-Encoder-for-Thai,
   author = {Patomporn Payoungkhamdee},
-  month = {3},
+  month = {5},
   year = {2023},
   title = {{Lightweight Multi-modal Encoder for Thai}},
   url = {https://github.com/calzonelover/Lightweight-Multi-modal-Encoder-for-Thai},
